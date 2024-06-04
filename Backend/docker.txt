@@ -1,2 +1,6 @@
-docker build -t back-autoescuela .
-/home/estudiante/Escritorio/Despliegue\ Back
+docker build -t back-tiempo .
+
+docker-compose up -d
+
+docker build -t front-tiempo .
+
